@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header{
+    width: 100%;
+    background: url(../image/banner.bgc.jpg) center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+header .bg-body-tertiary{
+    background-color: transparent !important;
+    padding-top: 30px;
+}
+
+header .navbar-brand img{
+    margin-right: 5px;
+}
+
+header .nav-item .nav-link{
+    color: white;
+}
+
+header .nav-item .nav-link:hover{
+    background: url(../image/bord.line.png)center bottom no-repeat;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+    background: url(../image/bord.line.png)center bottom no-repeat;
+} 
+
+/* banner sction code start */
+
+.banner-section .container{
+    margin-top: 90px;
+    color: white;
+
+}
+
+.banner-section .container span{
+    color: blue;
+    font-size: 12px;
+}
+
+.banner-section .container h1{
+    margin-top: 20px;
+    width: 78%;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.banner-section .container p{
+    width: 85%;
+    margin: 30px 0;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 14px;
+    color: rgba(175, 175, 167, 0.696);
+}
+
+.banner-section .container a{
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+.banner-section .container .btn1{
+    padding: 8px 15px;
+    background: rgb(60, 60, 203);
+    border: 1px solid rgb(60, 60, 203);
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+
+}
+.banner-section .container .btn1:hover{
+    padding: 8px 15px;
+    background:transparent;
+    border: 1px solid white;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.banner-section .container .btn2{
+    padding: 8px 15px;
+    background:transparent;
+    border: 1px solid white;
+    margin-left: 30px;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+
+}
+.banner-section .container .btn2:hover{
+    padding: 8px 15px;
+    background: rgb(60, 60, 203);
+    border: 1px solid rgb(60, 60, 203);
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+
+}
+
+/* product section code start */
+
+.product-section {
+    padding: 70px;
+}
+
+.product-section .container span{
+    color: blue;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.product-section .container h3{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.prd-function .product-box{
+    margin-top: 50px;
+}
+
+.prd-function .product-box img{
+    font-size: 20px;
+    border:2px sild rgb(49, 44, 44);
+    border-radius: 100%;
+    padding: 40px;
+    box-shadow: 0px 0px 5px 0px rgba(93, 82, 82, 0.15);
+}
+
+.prd-function .product-box h5{
+    margin-top: 20px;
+    color: black;
+}
+.prd-function .product-box p{
+    margin-top: 10px;
+    color: rgba(0,0,0,0.5);
+    font-size: 18px;
+    width: 90%;
+    padding: 5px 10px 40px;
+}
+
+/* beautiful-section code */
+
+.beautiful-section{
+    border-top: 2px solid rgb(241, 236, 236);
+    padding: 50px;
+} 
+
+
+.beautiful-section .beut-mobile span{
+    color: blue;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.beautiful-section .beut-mobile h3{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.beautiful-section .beut-mobile p{
+    width: 80%;
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 17px;
+    color: rgba(56, 56, 51, 0.696);
+}
+.beautiful-section .beut-mobile .span-text{
+    margin-bottom: 30px;
+}
+.beautiful-section .beut-mobile .span-text img{
+    font-size: 20px;
+}
+
+.beautiful-section .beut-mobile .span-text span{
+    margin-left: 20px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+/* customized section code start */
+
+.customized-section{
+    width: 100%;
+    background: rgb(232, 231, 234);
+    padding: 50px;
+}
+
+.customized-section .cus-text{
+    margin-top: 80px;
+    padding: 20px 20px;
+    width: 76%;
+}
+
+.customized-section .cus-text span{
+    color: blue;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.customized-section .cus-text h3{
+    margin:10px 0;
+}
+
+.customized-section .cus-text img{
+    margin-bottom: 15px;
+}
+.customized-section .cus-text p{
+    font-size: 16px;
+    color: gray;
+}
+
+/* owl-carusol code start */
+
+.testimonial-section{
+    background: url(../image/testimonial.bgc.png) center center no-repeat;
+    background-size: cover;
+    padding: 70px;
+    height: 70vh;
+}
+
+.intro{
+    display: flex;
+}
+.testimonial-section .container h4{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.testimonial-section .container h2{
+    color: white;
+
+}
+.slider .item p{
+    color: white;
+    width: 85%;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+.slider .deg h5{
+    color: white;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+
+/* theme blak code section */
+
+.black-section{
+    background: black;
+    padding: 30px;
+}
+.theme-black{
+    display: flex;
+    justify-content: space-between;
+}
+
+.black-section .theme-black h2{
+    color: white;
+}
+.black-section .theme-black span{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.black-section .button a{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.black-section .container .btn3{
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px solid rgb(134, 134, 139);
+    color:white;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+.black-section .container .btn4{
+    padding: 8px 15px;
+    background: rgb(60, 60, 203);
+    border: 1px solid rgb(60, 60, 203);
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+
+}
+
+
+/* price section code start */
+
+.price-section{
+    padding: 80px 0px;
+}
+
+.price-section .title img{
+    padding: 10px 0px 40px;
+}
+
+.price-section .title h4{
+    font-size: 15px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.price-section .title h2{
+    font-size: 30px;
+}
+
+.price-box{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.pb-header{
+    padding: 9px 0px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4) ;
+    text-transform: uppercase;
+}
+.pb-header h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pb-body{
+    padding: 28px 0px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.pb-body h1 sup{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pb-body p{
+    font-size: 20px;
+    color:rgba(128, 128, 128, 0.4) ;
+}
+
+.pb-footer{
+    padding: 28px 35px 15px;
+
+}
+
+.btn-primary{
+    background: transparent;
+    color: blue;
+    font-weight: 500;
+}
+
+.price-box:hover .pb-header{
+    color: blue;
+}
+
+.price-box:hover .pb-body{
+    background: blue;
+    color: white;
+}
+
+.price-box:hover .pb-body p{
+    color: white;
+}
+
+.price-box:hover .btn-primary{
+    background: blue;
+    color: white;
+}
+
+.price-box1{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.price-box1 .pb-header{
+    color: blue;
+
+}
+.price-box1 .pb-body{
+    background: blue;
+    color: white;
+}
+.price-box1 .pb-body p{
+    color: white;
+}
+.price-box1 .btn-primary{
+    background: blue;
+    color: white;
+}
+
+/* contact section code start */
+
+.contact-section{
+    background: rgba(172, 172, 228, 0.512);
+    height: 70vh;
+    padding: 70px;
+
+}
+.contact-section .contact-title span{
+    color: blue;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.contact-section .contact-title img{
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-box{
+    padding: 30px;
+}
+.contact-section .contact-box img{
+    margin-bottom: 20px;
+}
+.contact-section .contact-box p{
+    color: gray;
+}
+
+.send-msg{
+    width: 40%;
+    display: flex;
+    background: black;
+    margin: 0 auto;
+    padding: 20px;
+    z-index: 2;
+}
+
+.msg-box{
+    flex-basis: 50%;
+}
+
+input{
+    padding: 8px 0px;
+    background: transparent;
+    width: 90%;
+    border: 1px solid rgb(175, 161, 161);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.send-msg .mag-box input{
+    width: 90%;
+
+}
+
+.submit-box{
+    flex-basis: 50%;
+}
+
+.submit-box input{
+    height: 20vh;
+
+}
+
+.msg-btn a{
+    padding: 5px 12px;
+    background: blue;
+    color: white;
+    width: 40%;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+.map-section{
+    background: url(../image/map2.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    z-index: -1;
+}
+
+/* footer section start */
+
+.footer-section{
+    background: black;
+    padding: 15px;
+
+}
+
+.footer-section ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.footer-section .container ul li{
+    padding-top: 10px;
+}
+
+.footer-section .copyright span{
+    color:white;
+    font-size: 10px;
+}
+
+
+
+
+
